@@ -1,0 +1,46 @@
+ 1-  	      double p, des, desp;
+              Console.Write("Entre com o valor do produto: ");
+              p = double.Parse(Console.ReadLine());
+
+              des = (p * 9) / 100;
+              desp = (p - des);
+              Console.WriteLine("Seu desconto é de: " + des);
+              Console.WriteLine($"Seu produto é: {p} e agora é de: " + desp); 
+
+
+2-	      double n, n2;
+              Console.Write("Entre com o valor: ");
+              n = double.Parse(Console.ReadLine());
+
+              n2 = Math.Pow(n, 2);
+
+              Console.WriteLine("Número é: "+n);
+              Console.WriteLine("Número ao quadrado é : " + n2); 
+
+3-	     double F, C;
+             Console.Write("Entre com a Temperaura em Fahrenheit: ");
+             F = double.Parse(Console.ReadLine());
+             C = (5 * (F - 32) / 9);
+
+             Console.WriteLine($"A teperatura em graus Celsius é de: {C:F2} "; 
+
+
+4-            double sal;
+              Console.Write("Informe o salário: ");
+              sal = double.Parse(Console.ReadLine());
+
+              sal = sal + ((sal * 3) / 100);
+
+              Console.WriteLine("Salário Reajustado: "+sal); 
+
+
+5- 	    double n;
+            Console.Write("Entre com o valor em METROS: ");
+            n = double.Parse(Console.ReadLine());
+            n = n * 10;
+
+            Console.WriteLine($"{n} centimetros.");
+
+
+
+

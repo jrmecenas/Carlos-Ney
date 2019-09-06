@@ -1,0 +1,97 @@
+	/* int X1, x2, x3;
+             Console.Write("Entre com o valor: ");
+             X1 = int.Parse(Console.ReadLine());
+
+             x2 = X1 - 1;
+             Console.WriteLine("O número anterior é de: " + x2);
+             x3 = X1 + 1;
+             Console.WriteLine("O número sucessor é de: " + x3);
+             //Console.WriteLine("Hello World!"); */
+
+
+            /*string nome, endereco;
+            int num;    
+            Console.Write("Entre com o nome: ");
+            nome = Console.ReadLine();
+            Console.Write("Entre com o endereço: ");
+            endereco = Console.ReadLine();
+            Console.Write("Entre com o número: ");
+            num = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("O nome é: " +nome );
+            Console.WriteLine("O nome endereço: " + endereco);
+            Console.WriteLine("O número é de: "+ num); */
+
+            /* int x1, x2, soma;
+            Console.Write("Entre com o valor 1: ");
+            x1 = int.Parse(Console.ReadLine());
+            Console.Write("Entre com o valor 2: ");
+            x2 = int.Parse(Console.ReadLine());
+
+            soma = x1 + x2;
+
+            Console.WriteLine("Soma "+soma);
+          //  Console.WriteLine("Valor 1 " + x1);
+           // Console.WriteLine("Valor 2 " + x2; */
+
+
+            /* int x1, x2, produto;
+             Console.Write("Entre com o valor 1: ");
+             x1 = int.Parse(Console.ReadLine());
+             Console.Write("Entre com o valor 2: ");
+             x2 = int.Parse(Console.ReadLine());
+
+             produto = x1 * x2;
+
+             Console.WriteLine("O resultado é de: " + produto); */
+
+            /* double x1, x2;
+             Console.Write("Entre com o valor 1: ");
+             x1 = double.Parse(Console.ReadLine());
+
+             x2 = (x1 / 3 ) * 1 ;
+
+             Console.WriteLine($"A terça parte de: {x1} é de: " + x2); */
+
+
+            /*double x1, x2,  me;
+            x1 = double.Parse(Console.ReadLine());
+            x2 = double.Parse(Console.ReadLine());
+           
+            me = (x1 + x2 ) / 2;
+
+            Console.WriteLine("\"A media é de: \""+ me); */
+
+           /* double d1, d2, res, cos;
+            Console.Write("Digite o Dividendo: ");
+            d1 = double.Parse(Console.ReadLine());
+            Console.Write("Digite o Divisor: ");
+            d2 = double.Parse(Console.ReadLine());
+
+            cos = d1 / d2;
+            res = d1 % d2;
+
+
+            Console.WriteLine("Divisor : " +d2);
+            Console.WriteLine("Dividendo : "+d1);
+            Console.WriteLine("Quociente : "+cos);
+            Console.WriteLine("Resto : " +res);  */
+
+
+
+questão 9 com divisão inteira
+	    int res, d1 , d2 ,cos;
+            Console.Write("Digite o Dividendo: ");
+            d1 = int.Parse(Console.ReadLine());
+            Console.Write("Digite o Divisor: ");
+            d2 = int.Parse(Console.ReadLine());
+
+            cos = d1 / d2;
+            res = d1 % d2;
+
+
+            Console.WriteLine("Divisor : " +d2);
+            Console.WriteLine("Dividendo : "+d1);
+            Console.WriteLine("Quociente : "+cos);
+            Console.WriteLine("Resto : "+ res); 
+

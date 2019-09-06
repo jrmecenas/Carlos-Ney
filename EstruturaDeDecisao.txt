@@ -1,0 +1,137 @@
+Estruura de Decisão:
+
+Exemplo1    Console.Write("Primeiro Número: ");
+            int n1 = int.Parse(Console.ReadLine());
+            Console.Write("Primeiro Número: ");
+            int n2 = int.Parse(Console.ReadLine());
+
+
+            if( n1 + n2 > 10)
+                Console.WriteLine(n1 + n2 +" É maior "  );
+            if (n1 + n2 < 10)
+                Console.WriteLine(n1 + n2 + " É menor ");
+            if (n1+n2 == 10)
+                Console.WriteLine( (n1 +n2  ) +  " É igual" );
+
+
+
+
+
+exemplo 2   int n1, n2, sub ,soma;
+            Console.Write("Primeiro Número: ");
+            n1 = int.Parse(Console.ReadLine());
+            Console.Write("Segundo Número: ");
+            n2 = int.Parse(Console.ReadLine());
+
+            soma = n1 + n2;
+            
+            
+
+            if(soma >= 10){
+                Console.WriteLine(soma + " É maior ");
+                sub = soma - n2;
+                Console.WriteLine(sub + " Resultado menos o segundo número!");
+            }
+            else
+            {
+                if(soma < 10)
+                {
+
+                    Console.WriteLine("Não e possivel efetuar a operaÇÃO  "  );
+                }
+
+
+
+            }
+
+
+
+
+exemplo 3   Console.Write("Primeiro Número: ");
+            int n1 = int.Parse(Console.ReadLine());
+
+            if (n1 >= 20 && n1 <= 90)
+                Console.WriteLine("Esta dentro da faixa entre 20 e 90: " + n1);
+            else
+                Console.WriteLine("Esta fora da faixa entre 20 e 90: = " + n1);
+
+
+
+
+exemplo 4    Console.Write("Com o Número: ");
+             int n1 = int.Parse(Console.ReadLine());
+             if (n1 == 1 || n1 == 2 || n1 == 3)
+             {
+                if (n1 == 1)
+                    Console.WriteLine("Um");
+                if (n1 == 2)
+                    Console.WriteLine("Dois");
+                if (n1 == 3)
+                    Console.WriteLine("Treis");
+             }else
+                Console.WriteLine("Codigo Invalido!");
+
+
+
+exemplo 5   string nome1, nome2, sexo1, sexo2;
+            Console.Write( "Digite o primeiro nome: ");
+            nome1 = Console.ReadLine();
+            Console.Write("Digite o sexo: ");
+            sexo1 = Console.ReadLine();
+
+            Console.Write("Digite o nome: ");
+            nome2 = Console.ReadLine();
+            Console.Write("Digite o sexo: ");
+            sexo2 = Console.ReadLine();
+
+            if (sexo1 == "f" ^ sexo2 == "f")
+            {
+                Console.WriteLine("Podem formar um par: " + nome1 + " " + nome2);
+            }
+            else 
+            {
+                Console.WriteLine("Não podem formar um par: ");
+            }
+
+
+
+ExemPlo 6   int x, a, b, c;
+            Console.Write("Entre com o valor de A: ");
+            a = int.Parse(Console.ReadLine());
+            Console.Write("Entre com o valor de B: ");
+            b = int.Parse(Console.ReadLine());
+            Console.Write("Entre com o valor de C: ");
+            c = int.Parse(Console.ReadLine());
+
+            if (!(c > 5))
+            {
+                x = (a + b) * c;
+                Console.WriteLine(x);
+            }
+            else 
+            {
+                x = (a - b) * c;
+                Console.WriteLine(x);
+
+            }
+
+
+Exemplo 7   Console.WriteLine("Calcúlo de um Triângulo:");
+            Console.Write("Entre com o valor de A: ");
+            int a = int.Parse(Console.ReadLine());
+            Console.Write("Entre com o valor de B: ");
+            int b = int.Parse(Console.ReadLine());
+            Console.Write("Entre com o valor de C: ");
+            int c = int.Parse(Console.ReadLine());
+
+            if ((c < a + b) && (b < a + c) && (a < b + c)) 
+            {
+                if((a==b) & (b==c))
+                    Console.WriteLine("O Triângulo é Equilátero!");
+                else if(a==b|| b==c || c==a)
+                    Console.WriteLine("O Triângulo é Isóceles!");
+                else
+                    Console.WriteLine("O Triângulo é Escaleno!");
+
+            }else
+                Console.WriteLine("Não é um Triângulo!");
