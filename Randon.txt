@@ -1,0 +1,37 @@
+Ramdomicos - Randon
+
+Exemplo 1:  int nr, pedido;
+            Random randomico = new Random();
+            nr = randomico.Next(1,100);
+
+            Console.Write("Entre com um número de 1 a 5: ");
+            pedido = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+
+            if (nr == pedido)
+                Console.WriteLine("Acertou - foi sorteado: {0}",nr);
+            else
+                Console.WriteLine("Errou - foi sorteado: {0}", nr);
+
+------------------------------------------------------------------------------------------
+                         try cath
+
+
+Exemplo 2   int n1, n2, r;
+            Console.Write("Entre com o Número: ");
+            n1 = int.Parse(Console.ReadLine());
+            Console.Write("Entre com o Número: ");
+            n2 = int.Parse(Console.ReadLine());
+
+            
+
+            try
+            {
+                r = n1 / n2;
+                Console.WriteLine("O resultado é de = {0}: " + r);
+
+            }
+            catch(DivideByZeroException dbze)
+            {
+                Console.WriteLine("ERROR DIVISÃO POR 0.");
+            } 
