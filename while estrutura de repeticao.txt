@@ -1,0 +1,49 @@
+Exemplo 1:   int i = 1;
+              Console.WriteLine("Número de 1 até 10: ");
+
+
+              do
+              {
+               Console.WriteLine(  i);
+               i++;
+
+              } while (i == 10); 
+
+                Console.WriteLine(i);
+                i++;  
+
+
+Exemplo 2:   int i = 1;
+             Console.WriteLine("Número de 1 até 10: ");
+
+             while (i == 10)
+             {
+
+                Console.WriteLine(i);
+                i++; 
+             } 
+
+
+
+Exemplo 3 Laço Fatorial:
+
+
+
+            int x, i, fat;
+            i = 1;
+            fat= 1;
+            Console.Write("Entre com Número valido para o Fatorial: " );
+            x = int.Parse(Console.ReadLine());
+            if (x > 0)
+            {
+                while(i <= x )
+                {
+                    fat = fat * i;
+                   
+                    i++;
+                    
+                }
+               Console.WriteLine(fat);
+
+            }else
+                Console.WriteLine("Número digitado é Inválido.");
