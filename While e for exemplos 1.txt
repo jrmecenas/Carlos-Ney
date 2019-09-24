@@ -1,0 +1,51 @@
+while uso fo while e for.
+
+
+exemplo 1:    int i, fat, n;
+              i = 1;
+              fat = 1;
+              Console.Write("Entre com o Número: " );
+              n = int.Parse(Console.ReadLine());
+
+             if (n == 0) 
+                  Console.WriteLine("O fatorial " + n + "! é de: " + fat);
+              if (n > 1)
+              {
+
+                  do
+                  {
+                      fat = fat * i;
+                      i++;
+                      Console.WriteLine(fat);
+
+                  } while (i <= n);
+                  Console.WriteLine("O fatorial "+n+"! é de: "+fat);
+
+              }else if (n < 0)
+                  Console.WriteLine("Inválido!");
+              else if (n == 1)
+                  Console.WriteLine("O fatorial " + n + "! é de: " + fat);
+
+
+
+exemplo 2:  int  fat, n;
+           
+            fat = 1;
+            Console.Write("Entre com o Número: ");
+            n = int.Parse(Console.ReadLine());
+
+            if (n == 0)
+                Console.WriteLine("O fatorial " + n + "! é de: " + fat);
+            if (n > 1)
+            {
+                for (int i = 1; i <= n; i++)
+                {
+                    fat *= i ;
+
+                }
+                Console.WriteLine("O fatorial " + n + "! é de: " + fat);
+             }
+                else if (n < 0)
+                    Console.WriteLine("Inválido!");
+                else if (n == 1)
+                    Console.WriteLine("O fatorial " + n + "! é de: " + fat);
